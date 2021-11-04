@@ -13,8 +13,8 @@ $enableSandbox = true;
 $paypalConfig = [
     'client_id' => 'your paypal client id',
     'client_secret' => 'your paypal secret id',
-    'return_url' => 'http://localhost/paypal-rest-api/response.php',
-    'cancel_url' => 'http://localhost/paypal-rest-api/payment-cancelled.html'
+    'return_url' => 'http://localhost/How-to-Integrate-PayPal-REST-API-Payment-Gateway-in-PHP-main/response.php',
+    'cancel_url' => 'http://localhost/How-to-Integrate-PayPal-REST-API-Payment-Gateway-in-PHP-main/payment-cancelled.html'
 ];
 
 // Database settings. Change these for your database configuration.
