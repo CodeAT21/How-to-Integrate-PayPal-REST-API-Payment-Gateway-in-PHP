@@ -36,11 +36,11 @@ try {
         if (addPayment($data) !== false && $data['payment_status'] === 'approved') {
             // Payment successfully added, redirect to the payment complete page.
 			$inserids =$db->insert_id;
-            header("location:http://localhost/paypal-rest-api/PaypalSuccess.php?payid=$inserids");
+            header("location:http://localhost/How-to-Integrate-PayPal-REST-API-Payment-Gateway-in-PHP-main/PaypalSuccess.php?payid=$inserids");
             exit(1);
         } else {
             // Payment failed
-			header("location:http://localhost/paypal-rest-api/PaypalFailed.php");
+			header("location:http://localhost/How-to-Integrate-PayPal-REST-API-Payment-Gateway-in-PHP-main/PaypalFailed.php");
              exit(1);
         }
 
